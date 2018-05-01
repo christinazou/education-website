@@ -442,7 +442,12 @@ This class makes the topnav look good on small screens
 /* Six columns side by side */
 .column {
   float: left;
+  
   width: 16.66%;
+}
+.column  img {
+   max-height: 75px;
+   
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -457,7 +462,7 @@ This class makes the topnav look good on small screens
 
 .animate-fading{animation:fading 5s infinite}
 @keyframes fading{0%{opacity:0}
-50%{opacity:1}
+30%{opacity:1}
 100%{opacity:0}}
 
 /*------------------------------------ card ------------------------------------------------------------------*/
