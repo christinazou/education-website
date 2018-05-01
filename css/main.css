@@ -31,6 +31,10 @@ a{
     text-decoration: none;;
   cursor:pointer;
 }
+a:hover {
+    color:  #44c6e4;
+    text-decoration: none;
+}
 p{
   font-family: Lora, Palatino, Times, Times New Roman, serif;
   padding-top: 0.2em;
@@ -43,10 +47,7 @@ span{
   color:grey;
   font-weight: 350;
 }
-a:hover {
-    color:  #44c6e4;
-    text-decoration: none;
-}
+
 
 img{
   display: block;
