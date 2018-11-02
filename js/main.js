@@ -13,7 +13,7 @@ function myFunction() {
 
 
 //-------------  slideshow --------------------------------
-var slideIndex = 1;
+var slideIndex = 0;
 
 
 carousel();
